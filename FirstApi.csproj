@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20220223062639_AddProductsTableChange.cs" />
+    <Compile Remove="Data\Migrations\20220223062639_AddProductsTableChange.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220223074226_AddCategoryTable.cs" />
+    <Compile Remove="Data\Migrations\20220223074226_AddCategoryTable.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220224122829_addcategoryidnullable.cs" />
+    <Compile Remove="Data\Migrations\20220224122829_addcategoryidnullable.Designer.cs" />
+    <Compile Remove="Data\Migrations\20220228085451_CategoryIdConfigChanged.cs" />
+    <Compile Remove="Data\Migrations\20220228085451_CategoryIdConfigChanged.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.18">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+
+</Project>
