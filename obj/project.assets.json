@@ -5479,11 +5479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\CA mentor P225\\labtask\\FirstApi\\FirstApi.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\BACKEND\\api\\FirstApi\\ApiProject\\FirstApi.csproj",
       "projectName": "FirstApi",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\CA mentor P225\\labtask\\FirstApi\\FirstApi.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\BACKEND\\api\\FirstApi\\ApiProject\\FirstApi.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\CA mentor P225\\labtask\\FirstApi\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\BACKEND\\api\\FirstApi\\ApiProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -29,7 +29,7 @@ namespace FirstApi.DTOs.ProductDtos
               {
                   if (x.CostPrice > x.SalePrice)
                   {
-                      context.AddFailure("SalePrice", "Sale Price must be greater than Cost Price");
+                      context.AddFailure(nameof(x.SalePrice), "Sale Price must be greater than Cost Price");
                   }
               });
         }

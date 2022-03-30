@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LI2IsgKgS6jrwAvdonzyafi6gVEtn29Ccw7ek/M4K0d0dCpbqBMiH7kO2mTZ4ecdHainUXo3VRg4M1ieYdwokw==",
+  "dgSpecHash": "WboItzfdF9BZTusLPyBxtkbIjI69/MGENrMOrPZD2IDDR1pNLpLoVu3aCJQkR/MRTRgLEWa49oKq56Fdru/B/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\CA mentor P225\\labtask\\FirstApi\\FirstApi.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\BACKEND\\api\\FirstApi\\ApiProject\\FirstApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",

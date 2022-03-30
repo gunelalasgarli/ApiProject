@@ -13,6 +13,7 @@ namespace FirstApi.Data.Configurations
         public void Configure(EntityTypeBuilder<ProductTag> builder)
         {
             builder.HasOne(x => x.Product).WithMany(x => x.ProductTags).OnDelete(DeleteBehavior.Cascade);
+            builder.HasOne(x => x.Tag).WithMany(x => x.ProductTags).OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
