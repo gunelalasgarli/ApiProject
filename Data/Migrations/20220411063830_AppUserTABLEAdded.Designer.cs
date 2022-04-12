@@ -4,14 +4,16 @@ using FirstApi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FirstApi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20220411063830_AppUserTABLEAdded")]
+    partial class AppUserTABLEAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -27,13 +29,17 @@ namespace FirstApi.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 4, 11, 10, 38, 30, 489, DateTimeKind.Utc).AddTicks(7960));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<DateTime>("ModifiedAt")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 4, 11, 10, 38, 30, 489, DateTimeKind.Utc).AddTicks(8323));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -62,7 +68,7 @@ namespace FirstApi.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 4, 11, 11, 13, 40, 871, DateTimeKind.Utc).AddTicks(2714));
+                        .HasDefaultValue(new DateTime(2022, 4, 11, 10, 38, 30, 484, DateTimeKind.Utc).AddTicks(4647));
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -70,7 +76,7 @@ namespace FirstApi.Migrations
                     b.Property<DateTime>("ModifiedAt")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 4, 11, 11, 13, 40, 873, DateTimeKind.Utc).AddTicks(8124));
+                        .HasDefaultValue(new DateTime(2022, 4, 11, 10, 38, 30, 485, DateTimeKind.Utc).AddTicks(9886));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -117,7 +123,9 @@ namespace FirstApi.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 4, 11, 10, 38, 30, 491, DateTimeKind.Utc).AddTicks(4978));
 
                     b.Property<bool>("IsDeleted")
                         .ValueGeneratedOnAdd()
@@ -125,7 +133,9 @@ namespace FirstApi.Migrations
                         .HasDefaultValue(false);
 
                     b.Property<DateTime>("ModifiedAt")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2022, 4, 11, 10, 38, 30, 491, DateTimeKind.Utc).AddTicks(5260));
 
                     b.Property<string>("Name")
                         .IsRequired()

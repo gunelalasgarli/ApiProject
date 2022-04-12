@@ -134,3 +134,8 @@ C:\Users\ASUS\Desktop\BACKEND\api\FirstApi\ApiProject\obj\Debug\netcoreapp3.1\Fi
 C:\Users\ASUS\Desktop\BACKEND\api\FirstApi\ApiProject\obj\Debug\netcoreapp3.1\FirstApi.dll
 C:\Users\ASUS\Desktop\BACKEND\api\FirstApi\ApiProject\obj\Debug\netcoreapp3.1\FirstApi.pdb
 C:\Users\ASUS\Desktop\BACKEND\api\FirstApi\ApiProject\obj\Debug\netcoreapp3.1\FirstApi.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\BACKEND\api\FirstApi\ApiProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ASUS\Desktop\BACKEND\api\FirstApi\ApiProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ASUS\Desktop\BACKEND\api\FirstApi\ApiProject\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\BACKEND\api\FirstApi\ApiProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ASUS\Desktop\BACKEND\api\FirstApi\ApiProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll

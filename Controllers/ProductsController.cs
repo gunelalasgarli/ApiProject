@@ -1,6 +1,7 @@
 ﻿using FirstApi.Data;
 using FirstApi.Data.Entities;
 using FirstApi.DTOs.ProductDtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
